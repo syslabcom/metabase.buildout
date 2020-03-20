@@ -11,6 +11,7 @@ Create a buildout.cfg, adapting the [settings] section to your environment:
 extends = base.cfg
 
 [settings]
+metabase-host = localhost
 metabase-port = 3000
 database-type = postgres
 database-name = metabase
